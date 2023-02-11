@@ -6,8 +6,8 @@ include_once 'alicloud-php-updaterecord/V20150109/AlicloudUpdateRecord.php';
 
 use Roura\Alicloud\V20150109\AlicloudUpdateRecord;
 
-$AccessKeyId     = 'LTAI5tRKV9fRZ2BHG4mq2Wqt';
-$AccessKeySecret = 'SVAXOvHLWy7LrR0ltpiSCl1RyvM1Zq';
+$AccessKeyId     = '';
+$AccessKeySecret = '';
 $updater         = new AlicloudUpdateRecord($AccessKeyId, $AccessKeySecret);
 
 $newIp = $_SERVER['REMOTE_ADDR']; // New IP
